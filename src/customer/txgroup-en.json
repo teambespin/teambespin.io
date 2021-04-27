@@ -1,0 +1,47 @@
+{
+  "title": "bespinian is Supporting TX Group in Modernizing the 20 Minuten Application",
+  "logo": {
+    "file": "tx-group.webp",
+    "alt": "TX Group"
+  },
+  "customer": "<a href=\"https://tx.group\" target=\"_blank\">TX Group</a> is a media company headquartered in Zurich, Switzerland. Through a portfolio of daily and weekly newspapers, magazines and digital platforms, as well as own printing facilities, it is the largest media group in Switzerland.",
+  "background": "In 2019 TX Group started the ambitious journey to modernize and renew the whole 20 Minuten application, which is one of the most visited websites in Switzerland. The existing tech stack had evolved in around 20 years. Therefore, both the infrastructure and the application itself should be rewritten in a modern way.",
+  "goal": "The goal of this project was to modernize the setup of the application, get rid of legacy code and components and make the system overall more stable and cost efficient. AWS was chosen as the partner for the infrastructure and the application was to be rewritten as a combination of Go, Node.js and React microservices running on a Kubernetes cluster on AWS.",
+  "contribution": {
+    "intro": "bespinian played a key role in the following areas.",
+    "topics": [
+      {
+        "title": "AWS Infrastructure",
+        "text": "Through the AWS knowledge bespinian had gained"
+      },
+      {
+        "title": "Kubernetes Architecture",
+        "text": "All of CI Tech Sensors’ microservices for banknote data management are deployed on a Kubernetes-based infrastructure. bespinian was in the lead for the configuration of all Kubernetes environments and for configuring the automated deployment of each service. Using a mixture of training, code-review and pair-engineering, bespinian enabled the CI Tech Sensors team to build up the necessary Kubernetes know-how and continue the operation and extension of the platform."
+      },
+      {
+        "title": "Monitoring and Alerting",
+        "text": "The microservices for management of banknote data inherently play a critical role in CI Tech Sensors’ core business. Accordingly, these services needed to be closely monitored from an operational point of view. Furthermore, business metrics like, for example, the quantity of invalid banknote data also play a central role. Together with the CI Tech Sensors team, bespinian developed a monitoring and alerting architecture based on Prometheus and Grafana and took the lead in implementing the monitoring and alerting infrastructure and dashboards. While doing so, bespinian enabled the CI Tech Sensors team in the relevant technologies in order to ensure that monitoring and alerting could evolve together with the platform."
+      },
+      {
+        "title": "Transitioning to DevOps",
+        "text": "With the introduction of Kubernetes-based infrastructure and a highly-available microservice architecture the CI Tech Sensors team undertook a natural step towards a DevOps-way of working. bespinian guided CI Tech Sensors through this transition by coaching and consulting the teams involved as well as by establishing the necessary tooling and processes."
+      }
+    ]
+  },
+  "technologies": [
+    "Amazon Web Services",
+    "Kubernetes",
+    "Go",
+    "React.js",
+    "MongoDB",
+    "PostgreSQL",
+    "Prometheus / Graphana"
+  ],
+  "quote": {
+    "text": "bla bla",
+    "stakeholder": {
+      "name": "Serge Leibenzon",
+      "role": "Tech Lead"
+    }
+  }
+}

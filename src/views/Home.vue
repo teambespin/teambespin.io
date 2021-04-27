@@ -440,12 +440,7 @@
                   </figure>
                   <br />
                 </div>
-                <a
-                  href="https://tx.group"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >TX Group</a
-                >
+                <router-link to="/customers/txgroup">TX Group</router-link>
               </slide>
               <slide class="has-text-centered">
                 <div class="has-image-centered customer-logo">
